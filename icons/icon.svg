@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#33507e"/>
+  <!-- 펼친 공책 -->
+  <path d="M120 168c44-14 88-10 136 14v196c-48-24-92-28-136-14z" fill="#f7f6f3"/>
+  <path d="M392 168c-44-14-88-10-136 14v196c48-24 92-28 136-14z" fill="#e6e2da"/>
+  <!-- 글줄 -->
+  <path d="M152 214c26-6 50-4 74 6M152 252c26-6 50-4 74 6M152 290c26-6 50-4 74 6" stroke="#33507e" stroke-width="10" stroke-linecap="round" fill="none" opacity=".55"/>
+  <!-- 펜 -->
+  <path d="M300 330l92-92 22 22-92 92-32 10z" fill="#c9922b"/>
+  <path d="M392 238l14-14a10 10 0 0 1 14 0l8 8a10 10 0 0 1 0 14l-14 14z" fill="#f7f6f3"/>
+</svg>

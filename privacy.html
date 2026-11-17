@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>개인정보처리방침 · 작법 노트</title>
+<style>
+  :root { --bg: #fafaf8; --fg: #222; --muted: #666; --line: #e4e4e0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1b1b1d; --fg: #e8e8e6; --muted: #a0a0a0; --line: #333; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.75 Pretendard, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 80px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 36px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  p, li { margin: 6px 0; }
+  .muted { color: var(--muted); font-size: 14px; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>개인정보처리방침</h1>
+  <p class="muted">작법 노트 · 시행일 2026년 11월 17일</p>
+
+  <p>작법 노트(이하 "앱")는 소설·웹소설 작가를 위한 글쓰기 웹 앱입니다. 앱이 어떤 정보를 받고, 어디에 두고, 어떻게 쓰는지 알려 드립니다.</p>
+
+  <h2>1. 받는 정보</h2>
+  <ul>
+    <li><b>로그인 정보</b>: 이메일로 가입하거나 구글 계정으로 로그인하면 이메일 주소, 이름, 프로필 사진 주소, 계정 식별 번호를 받습니다. 구글 계정의 비밀번호는 받지 않습니다.</li>
+    <li><b>작업 내용</b>: 클라우드 동기화를 켜면 원고, 등장인물, 플롯, 메모, 설정 같은 작업 내용이 서버에 저장됩니다. 자료실에 넣은 원본 파일(e북, PDF 등)은 서버에 올리지 않습니다.</li>
+    <li><b>내 AI 키</b>: 직접 넣은 AI 서비스 키는 암호화해 저장하며, 화면에는 끝 4자리만 보여 줍니다.</li>
+  </ul>
+
+  <h2>2. 쓰는 목적</h2>
+  <ul>
+    <li>로그인과 본인 확인</li>
+    <li>여러 기기 사이에서 작업 내용 동기화</li>
+    <li>국어사전·AI 기능 호출과 과다 사용 방지</li>
+  </ul>
+  <p>광고, 판매, 다른 사람과의 공유에는 쓰지 않습니다.</p>
+
+  <h2>3. 보관 장소와 처리 위탁</h2>
+  <ul>
+    <li><b>Supabase</b>: 계정 정보와 동기화된 작업 내용을 보관합니다. 각 줄은 본인 계정만 읽고 쓸 수 있게 막혀 있습니다.</li>
+    <li><b>Google</b>: 구글 계정으로 로그인할 때 본인 확인에 씁니다.</li>
+    <li><b>국립국어원 오픈 API</b>: 사전을 찾을 때 찾는 낱말만 보냅니다.</li>
+    <li><b>AI 서비스</b>(Anthropic 등, 직접 고른 곳): AI 기능을 쓸 때 선택한 글만 보냅니다.</li>
+  </ul>
+  <p>클라우드 동기화를 켜지 않으면 작업 내용은 사용 중인 브라우저 안에만 저장됩니다.</p>
+
+  <h2>4. 보관 기간과 삭제</h2>
+  <ul>
+    <li>계정을 쓰는 동안 보관합니다.</li>
+    <li>앱에서 지운 항목은 휴지통에 30일 보관한 뒤 지워집니다.</li>
+    <li>계정과 모든 데이터를 지우고 싶으면 아래 문의처로 요청해 주세요. 확인 후 지체 없이 삭제합니다.</li>
+  </ul>
+
+  <h2>5. 이용자의 권리</h2>
+  <p>언제든 내 정보를 열람·수정·삭제하거나 처리 정지를 요청할 수 있습니다. 앱의 [설정 → 백업 내보내기]로 내 작업 내용을 파일로 받을 수 있습니다.</p>
+
+  <h2>6. 문의</h2>
+  <p>개인정보 관련 문의는 구글 로그인 화면의 "개발자 연락처"에 표시된 이메일로 보내 주세요.</p>
+
+  <p class="muted" style="margin-top:40px"><a href="./">← 작법 노트로 돌아가기</a></p>
+</main>
+</body>
+</html>
